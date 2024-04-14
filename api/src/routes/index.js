@@ -5,6 +5,6 @@ const productsRoutes = require("./productsRoutes");
 const router = Router();
 
 router.use("/clients", clientsRoutes);
-router.use("/products", productsRoutes);
+router.use("/products", /*productsRoutes*/ ()=>console.log("Holis"));
 
 module.exports = router;

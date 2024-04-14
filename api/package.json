@@ -4,8 +4,22 @@
   "description": "CRUD Pedidos",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicolas Palma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  }
 }
