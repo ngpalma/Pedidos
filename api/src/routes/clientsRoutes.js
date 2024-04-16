@@ -8,9 +8,9 @@ const {
 
 const clientsRoutes = Router();
 
-clientsRoutes.get("/", /*getClientsHandler*/ ()=>console.log("Holis"));
-clientsRoutes.post("/", /*postClientHandler*/ ()=>console.log("Holis"));
-clientsRoutes.patch("/:id", /*patchClientHandler*/ ()=>console.log("Holis"));
-clientsRoutes.delete("/:id", /*deleteClientHandler*/ ()=>console.log("Holis"));
+clientsRoutes.get("/", /*getClientsHandler*/ ()=>console.log("GET de clientes"));
+clientsRoutes.post("/", /*postClientHandler*/ ()=>console.log("POST de clientes"));
+clientsRoutes.patch("/:id", /*patchClientHandler*/ ()=>console.log("PATCH de clientes"));
+clientsRoutes.delete("/:id", /*deleteClientHandler*/ ()=>console.log("DELETE de clientes"));
 
 module.exports = clientsRoutes;

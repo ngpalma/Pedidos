@@ -33,6 +33,9 @@ module.exports = (sequelize) => {
       price: {
         type: DataTypes.FLOAT,
       },
+      image: {
+        type: DataTypes.STRING,
+      },
     },
     { timestamps: false }
   );
