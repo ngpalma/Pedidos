@@ -30,9 +30,25 @@ const getProductsController = async () => {
 };
 
 const deleteProductController = async (id) => {
-  const product = await Product.findByPk(id)
+  const product = await Product.findByPk(id);
   const deletedProduct = await product.destroy();
   return deletedProduct;
-}
+};
 
-module.exports = { postProductController, getProductsController, deleteProductController };
+const patchProductController = async (id, data) => {
+  const product = await Product.findByPk(id);
+  console.log(product);
+  if (!product) {
+    // Si no se encuentra el producto con el ID proporcionado.
+    return res.status(404).json({ error: 'Product not found' });
+  }
+  await product.update(data);
+  return product;
+};
+
+module.exports = {
+  postProductController,
+  getProductsController,
+  deleteProductController,
+  patchProductController,
+};

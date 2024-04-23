@@ -44,4 +44,24 @@ const deleteProductHandler = async (req, res) => {
   }
 };
 
-module.exports = { postProductHandler, getProductsHandler, deleteProductHandler };
+const patchProductHandler = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const data = req.body;
+    if (!data) {
+      // Si no se proporciona ningún dato en el cuerpo de la solicitud.
+      return res.status(400).json({ error: 'Data not provided' });
+    }
+    const product = await patchProductController(id, data);
+    res.status(200).json(product);
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
+};
+
+module.exports = {
+  postProductHandler,
+  getProductsHandler,
+  deleteProductHandler,
+  patchProductHandler,
+};
