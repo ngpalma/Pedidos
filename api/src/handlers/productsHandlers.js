@@ -34,4 +34,14 @@ const getProductsHandler = async (req, res) => {
   }
 };
 
-module.exports = { postProductHandler, getProductsHandler };
+const deleteProductHandler = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const deletedProduct = await deleteProductController(id);
+    res.status(200).json(deletedProduct);
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
+};
+
+module.exports = { postProductHandler, getProductsHandler, deleteProductHandler };

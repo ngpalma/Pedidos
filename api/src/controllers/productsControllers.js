@@ -29,4 +29,10 @@ const getProductsController = async () => {
   return allProducts;
 };
 
-module.exports = { postProductController, getProductsController };
+const deleteProductController = async (id) => {
+  const product = await Product.findByPk(id)
+  const deletedProduct = await product.destroy();
+  return deletedProduct;
+}
+
+module.exports = { postProductController, getProductsController, deleteProductController };

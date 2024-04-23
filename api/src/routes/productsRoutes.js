@@ -14,9 +14,6 @@ productsRoutes.patch(
   "/:id",
   /*patchProductHandler*/ () => console.log("PATCH de productos")
 );
-productsRoutes.delete(
-  "/:id",
-  /*deleteProductHandler*/ () => console.log("DELETE de productos")
-);
+productsRoutes.delete("/:id", deleteProductHandler);
 
 module.exports = productsRoutes;
