@@ -20,30 +20,35 @@ const postProductController = async (
       image,
     },
   });
-
+  if (!created) return "El producto ya existe en la base de datos";
   return newProduct;
 };
 
 const getProductsController = async () => {
   const allProducts = await Product.findAll();
+  if (!allProducts) return "No hay productos cargados en la base de datos";
   return allProducts;
+};
+
+const getProductByIdController = async (id) => {
+  const product = await Product.findByPk(id);
+  if (!product) return "No se encuentra el producto solicitado";
+  return product;
 };
 
 const deleteProductController = async (id) => {
   const product = await Product.findByPk(id);
+  if (!product) return "El producto no existe o ya fue eliminado";
   const deletedProduct = await product.destroy();
   return deletedProduct;
 };
 
 const patchProductController = async (id, data) => {
   const product = await Product.findByPk(id);
-  console.log(product);
-  if (!product) {
-    // Si no se encuentra el producto con el ID proporcionado.
-    return res.status(404).json({ error: 'Product not found' });
-  }
-  await product.update(data);
-  return product;
+  if (!product)
+    return "No se puede modificar el producto porque no existe en la base de datos";
+  const updatedProduct = await product.update(data);
+  return updatedProduct;
 };
 
 module.exports = {
@@ -51,4 +56,5 @@ module.exports = {
   getProductsController,
   deleteProductController,
   patchProductController,
+  getProductByIdController,
 };

@@ -3,11 +3,12 @@ const {
   getProductsController,
   patchProductController,
   deleteProductController,
+  getProductByIdController,
 } = require("../controllers/productsControllers");
 
 const postProductHandler = async (req, res) => {
-  const { brand, name, type, volume, size, price, image } = req.body;
   try {
+    const { brand, name, type, volume, size, price, image } = req.body;
     if (![brand, name, type, volume, size, price, image].every(Boolean))
       throw new Error("Faltan datos");
     const newProduct = await postProductController(
@@ -34,6 +35,16 @@ const getProductsHandler = async (req, res) => {
   }
 };
 
+const getProductByIdHandler = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const product = await getProductByIdController(id);
+    res.status(200).json(product);
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
+};
+
 const deleteProductHandler = async (req, res) => {
   try {
     const { id } = req.params;
@@ -48,10 +59,6 @@ const patchProductHandler = async (req, res) => {
   try {
     const { id } = req.params;
     const data = req.body;
-    if (!data) {
-      // Si no se proporciona ningún dato en el cuerpo de la solicitud.
-      return res.status(400).json({ error: 'Data not provided' });
-    }
     const product = await patchProductController(id, data);
     res.status(200).json(product);
   } catch (error) {
@@ -64,4 +71,5 @@ module.exports = {
   getProductsHandler,
   deleteProductHandler,
   patchProductHandler,
+  getProductByIdHandler,
 };

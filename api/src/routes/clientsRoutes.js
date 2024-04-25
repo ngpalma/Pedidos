@@ -4,13 +4,15 @@ const {
   getClientsHandler,
   deleteClientHandler,
   patchClientHandler,
+  getClientByIdHandler,
 } = require("../handlers/clientsHandlers");
 
 const clientsRoutes = Router();
 
-clientsRoutes.get("/", /*getClientsHandler*/ ()=>console.log("GET de clientes"));
-clientsRoutes.post("/", /*postClientHandler*/ ()=>console.log("POST de clientes"));
-clientsRoutes.patch("/:id", /*patchClientHandler*/ ()=>console.log("PATCH de clientes"));
-clientsRoutes.delete("/:id", /*deleteClientHandler*/ ()=>console.log("DELETE de clientes"));
+clientsRoutes.get("/", getClientsHandler);
+clientsRoutes.get("/:id", getClientByIdHandler);
+clientsRoutes.post("/", postClientHandler);
+clientsRoutes.patch("/:id", patchClientHandler);
+clientsRoutes.delete("/:id", deleteClientHandler);
 
 module.exports = clientsRoutes;
