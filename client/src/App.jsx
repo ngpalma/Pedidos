@@ -1,35 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route, useLocation } from "react-router-dom";
+import "./App.css";
+import NavBar from "../src/components/NavBar/NavBar";
+import Home from "../src/views/Home/Home";
+import Login from "../src/views/Login/Login";
+import Register from "../src/views/Register/Register";
+import Detail from "../src/views/Detail/Detail";
+import DashboardClient from "./views/DashboardClient/DashboardClient";
+import DashboardAdmin from "./views/DashboardAdmin/DashboardAdmin";
+import About from "./views/About/About";
+import Contact from "./components/Contact/Contact";
+import ShoppingCart from "./views/ShoppingCart/ShoppingCart";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const location = useLocation();
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      {location.pathname !== "/" && location.pathname !== "/register" && (
+        <NavBar />
+      )}
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/detail/:id" element={<Detail />} />
+        <Route path="/client" element={<DashboardClient />} />
+        <Route path="/admin" element={<DashboardAdmin />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/shopping-cart" element={<ShoppingCart />} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App
+export default App;
