@@ -1,3 +1,4 @@
 const GET_PRODUCTS = "GET_PRODUCTS";
+const GET_CLIENTS = "GET_CLIENTS";
 
-export { GET_PRODUCTS };
+export { GET_PRODUCTS, GET_CLIENTS };
