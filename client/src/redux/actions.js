@@ -12,7 +12,8 @@ import {
 export const getProducts = () => {
   return async function (dispatch) {
     try {
-      const products = await axios.get(`/products`);
+      const products = await axios.get("/products");
+      console.log(products);
       if (products) {
         dispatch({ type: GET_PRODUCTS, payload: products.data });
       }

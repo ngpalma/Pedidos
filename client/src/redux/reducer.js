@@ -47,9 +47,15 @@ const rootReducer = (state = initialState, { type, payload }) => {
         ...state,
         clientDetail: payload,
       };
-      //------------------------USERS------------------------
+    //------------------------USERS------------------------
 
-      //------------------------PAGINATION------------------------
+    //------------------------PAGINATION------------------------
+
+    //DEFAULT
+    default:
+      return {
+        ...state,
+      };
   }
 };
 
