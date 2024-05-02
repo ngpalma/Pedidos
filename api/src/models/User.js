@@ -18,12 +18,22 @@ module.exports = (sequelize) => {
       lastName: {
         type: DataTypes.STRING,
         allowNull: false,
-      },      
+      },
       email: {
         type: DataTypes.STRING,
         allowNull: false,
+        unique: true,
       },
-      
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      salt: {
+        type: DataTypes.STRING,
+      },
+      sessionToken: {
+        type: DataTypes.STRING,
+      },
     },
     { timestamps: false }
   );
