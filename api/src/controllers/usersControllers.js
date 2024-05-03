@@ -1,5 +1,21 @@
 const { User } = require("../db");
 
+//Crear un nuevo usuario en la base de datos
+const createUserController = async (email) => {
+  const [newUser, created] = await User.findOrCreate({
+    where: {
+      email,
+      firstName,
+      lastName,
+      salt,
+      password,
+    },
+  });
+  if (!created)
+    return "El usuario ya se encuentra registrado en la base de datos";
+  return newUser;
+};
+
 //obtener todos los usuarios de la base de datos
 const getUsersController = async () => {
   const allUsers = User.findAll();
@@ -29,9 +45,16 @@ const getUserByIdController = async (id) => {
   return user;
 };
 
+const getUserByEmailController = async (email) => {
+  const user = await User.findAll({ where: { email } });
+  return user;
+};
+
 module.exports = {
   getUsersController,
   patchUserController,
   deleteUserController,
   getUserByIdController,
+  getUserByEmailController,
+  createUserController,
 };

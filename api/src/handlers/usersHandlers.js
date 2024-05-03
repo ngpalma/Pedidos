@@ -3,7 +3,26 @@ const {
   deleteUserController,
   patchUserController,
   getUserByIdController,
+  getUserByEmailController,
+  createUserController,
 } = require("../controllers/usersControllers");
+
+//Crear un usuario nuevo en la base de datos
+const createUserHandler = async (req, res) => {
+  try {
+    const { email, firstName, lastName, salt, password } = req.body;
+    const user = await createUserController(
+      email,
+      firstName,
+      lastName,
+      salt,
+      password
+    );
+    res.status(200).json(user);
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
+};
 
 //obtener todos los usuarios de la base de datos
 const getUsersHandler = async (req, res) => {
@@ -49,9 +68,22 @@ const getUserByIdHandler = async (req, res) => {
   }
 };
 
+//obtener un registro usuario por su email
+const getUserByEmailHandler = async (req, res) => {
+  try {
+    const { email } = req.body;
+    const user = await getUserByEmailController(email);
+    res.status(200).json(user);
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
+};
+
 module.exports = {
   getUsersHandler,
   deleteUserHandler,
   patchUserHandler,
   getUserByIdHandler,
+  getUserByEmailHandler,
+  createUserHandler,
 };
