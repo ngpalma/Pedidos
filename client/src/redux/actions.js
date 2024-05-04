@@ -5,6 +5,7 @@ import {
   GET_CLIENTS,
   GET_CLIENT_DETAIL,
   GET_PRODUCT_DETAIL,
+  REGISTER_USER,
 } from "./type";
 
 //------------------------PRODUCTS ACTIONS------------------------
@@ -57,6 +58,21 @@ export const getClientDetail = (id) => {
       const client = await axios.get(`/products/${id}`);
       if (client) {
         dispatch({ type: GET_CLIENT_DETAIL, payload: client.data });
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+};
+
+//------------------------USERS ACTIONS------------------------
+
+export const registerUser = (user) => {
+  return async function (dispatch) {
+    try {
+      const { data } = await axios.post(`/auth/register`, user);
+      if (data) {
+        dispatch({ type: REGISTER_USER, payload: data });
       }
     } catch (error) {
       console.log(error);

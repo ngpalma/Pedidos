@@ -8,7 +8,7 @@ const { createUserController, getUserByEmailController } = require("./usersContr
 const loginController = async (email, password) => {
   if (!email || !password) return "Debe completar todos los campos";
 
-  const user = await getUserByEmailHandler(email);
+  const user = await getUserByEmailController(email);
 
   if (!user || !user.authentication || !user.authentication.salt)
     return "Error en la autenticación del usuario";
