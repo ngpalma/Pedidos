@@ -10,7 +10,7 @@ const loginController = async (email, password) => {
 
   const user = await getUserByEmailController(email);
 
-  if (!user || !user.authentication || !user.authentication.salt)
+  if (!user || !user.salt)
     return "Error en la autenticación del usuario";
 
   const expectedHash = authentication(user.salt, password);
@@ -18,7 +18,7 @@ const loginController = async (email, password) => {
   if (user.password !== expectedHash) return "Contraseña incorrecta";
 
   const salt = random();
-  user.sessionToken = authentication(salt, user.id.toString());
+  user.sessionToken = authentication(salt, user.id);
 
   await user.save();
   return user;

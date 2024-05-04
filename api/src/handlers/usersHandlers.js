@@ -71,7 +71,7 @@ const getUserByIdHandler = async (req, res) => {
 //obtener un registro usuario por su email
 const getUserByEmailHandler = async (req, res) => {
   try {
-    const { email } = req.body;
+    const { email } = req.params;
     const user = await getUserByEmailController(email);
     res.status(200).json(user);
   } catch (error) {
