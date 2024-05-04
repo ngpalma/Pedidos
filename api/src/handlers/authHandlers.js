@@ -28,6 +28,7 @@ const registerHandler = async (req, res) => {
       firstName,
       lastName
     );
+
     res.status(200).json(registerUser);
   } catch (error) {
     res.status(400).json(error.message);

@@ -1,7 +1,13 @@
 const { User } = require("../db");
 
 //Crear un nuevo usuario en la base de datos
-const createUserController = async (email) => {
+const createUserController = async ({
+  email,
+  firstName,
+  lastName,
+  salt,
+  password,
+}) => {
   const [newUser, created] = await User.findOrCreate({
     where: {
       email,
@@ -11,6 +17,7 @@ const createUserController = async (email) => {
       password,
     },
   });
+
   if (!created)
     return "El usuario ya se encuentra registrado en la base de datos";
   return newUser;
@@ -46,7 +53,7 @@ const getUserByIdController = async (id) => {
 };
 
 const getUserByEmailController = async (email) => {
-  const user = await User.findAll({ where: { email } });
+  const user = await User.findOne({ where: { email } });
   return user;
 };
 

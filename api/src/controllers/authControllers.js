@@ -1,7 +1,11 @@
-import { createUserHandler, getUserByEmailHandler } from "../handlers/usersHandlers";
-import { random, authentication } from "../helpers";
+const {
+  createUserHandler,
+  getUserByEmailHandler,
+} = require("../handlers/usersHandlers");
+const { random, authentication } = require("../helpers");
+const { createUserController, getUserByEmailController } = require("./usersControllers");
 
-export const loginController = async (email, password) => {
+const loginController = async (email, password) => {
   if (!email || !password) return "Debe completar todos los campos";
 
   const user = await getUserByEmailHandler(email);
@@ -20,24 +24,25 @@ export const loginController = async (email, password) => {
   return user;
 };
 
-export const registerController = async (
-  email,
-  password,
-  firstName,
-  lastName
-) => {
+const registerController = async (email, password, firstName, lastName) => {
   if (!email || !password || !firstName || !lastName) return "Faltan datos";
 
-  const existingUser = await getUserByEmailHandler(email);
+  const existingUser = await getUserByEmailController(email);
   if (existingUser) return "El usuario ya existe";
-
   const salt = random();
-  const user = await createUserHandler({
+
+  const user = await createUserController({
     email,
     firstName,
     lastName,
     salt,
     password: authentication(salt, password),
   });
+
   return user;
+};
+
+module.exports = {
+  registerController,
+  loginController,
 };
