@@ -4,6 +4,7 @@ import {
   GET_CLIENT_DETAIL,
   GET_PRODUCT_DETAIL,
   REGISTER_USER,
+  LOGIN_USER,
 } from "./type";
 
 const initialState = {
@@ -19,6 +20,7 @@ const initialState = {
   //------------------------USERS STATES------------------------
   allUsers: [],
   userDetail: {},
+  userLogin: {},
   isAuthenticated: false, //para saber si esta logueado el usuario
 
   //------------------------PAGINATION STATES------------------------
@@ -56,9 +58,14 @@ const rootReducer = (state = initialState, { type, payload }) => {
         ...state,
         allUsers: payload,
       };
+    case LOGIN_USER:
+      return {
+        ...state,
+        userLogin: payload,
+      };
     //------------------------PAGINATION------------------------
 
-    //------------------------DEFAULT------------------------    
+    //------------------------DEFAULT------------------------
     default:
       return {
         ...state,
