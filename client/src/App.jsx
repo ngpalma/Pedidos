@@ -10,6 +10,7 @@ import {
   DashboardAdmin,
   About,
   ShoppingCart,
+  ForgotPassword
 } from "../src/views/index";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/shopping-cart" element={<ShoppingCart />} />
         <Route path="*" element={<Error404 />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />        
       </Routes>
     </div>
   );

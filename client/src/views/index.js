@@ -6,6 +6,7 @@ import Home from "./Home/Home";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
 import ShoppingCart from "./ShoppingCart/ShoppingCart";
+import ForgotPassword from "./ForgotPassword/ForgotPassword";
 
 export {
   About,
@@ -16,4 +17,5 @@ export {
   Login,
   Register,
   ShoppingCart,
+  ForgotPassword,
 };
