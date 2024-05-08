@@ -1,10 +1,29 @@
+import { useNavigate } from "react-router-dom";
+import SearchBar from "../SearchBar/SearchBar";
+import UserLogin from "../UserLogin/UserLogin";
+
 const NavBar = () => {
-    return (
+  const navigate = useNavigate();
+
+  return (
+    <div>
+      <button onClick={() => navigate("/home")}>
+        {" "}
+        <img src="#" alt="logoHome" />{" "}
+      </button>
+      <SearchBar />
       <div>
-        <h1>Barra de navegacion</h1>
+        <div>
+          <button onClick={() => navigate("/register")}> Registrarse </button>
+        </div>
+        <button onClick={() => navigate("/cart")}>
+          {" "}
+          <img src="#" alt="logoCart" />{" "}
+        </button>
+        <UserLogin />
       </div>
-    );
-  };
-  
-  export default NavBar;
-  
+    </div>
+  );
+};
+
+export default NavBar;

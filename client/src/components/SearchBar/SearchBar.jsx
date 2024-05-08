@@ -1,7 +1,7 @@
 const SearchBar = () => {
     return (
       <div>
-        <h1>Barra de busqueda</h1>
+        <h3>Barra de busqueda</h3>
       </div>
     );
   };
