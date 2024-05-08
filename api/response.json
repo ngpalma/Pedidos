@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "e33ac0aa-6664-4b27-8af3-a1f44af9acf9",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Neutro",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "aed20daf-b0a0-46aa-9084-223224dda24c",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Biotina",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "da76f81f-0285-47d2-ab6b-88b35e007ad5",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Almendras",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "b50591a5-5b37-4072-8240-13cd8066c925",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Coco",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9b1a87d6-eb21-4b81-8058-52da4cce1326",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Extra ácido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "562c4738-8ffa-48ad-a1e9-7da46c34c0f7",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "891eb060-b00e-40ff-896c-ba7a3db6918d",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Macadamia",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "2b6073f0-4d1e-4a2a-84a3-7dec10a8a42c",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Keratina y argán",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "fc717453-7f3a-425b-a9c5-cb9b113cd7bc",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Neutro",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e647e9d8-2b58-40c2-861c-d8974e662761",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Biotina",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e4e50748-ba12-42d4-9c95-0b78fc83c73d",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Almendras",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "c3b3e380-b065-4889-9385-cf307f27fb34",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Coco",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "671a1e32-d712-4154-aa89-e35953aab8ce",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Extra ácido",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "2a68cce7-b340-4356-9c23-f7efa26b9d44",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Células madre",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "fc7ac950-843f-4735-9eb8-c91837e7c5ea",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Macadamia",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3bc8a40c-5675-4ba5-9180-22a8812caca4",
+    "brand": "BF",
+    "name": "Shampoo",
+    "type": "Keratina y argán",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "054aebb6-085c-4dd4-9726-02d2424796a1",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Neutro",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e5ac32da-d90e-4d3e-bf4c-fa17af717e31",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Biotina",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d259f26a-6bce-4911-b88a-afca173cd7d5",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Almendras",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "806b2bb5-b56c-4b46-80fe-58b7b0eb4468",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Coco",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "2d3c0b8a-d8c9-4d08-8c4b-760e43b1a3d2",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Extra ácido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "215d379b-626f-4200-81cc-4da562ef9e4d",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a6ba2736-a9d9-4060-a133-75234cbd3c93",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Macadamia",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "74d97787-f05f-4766-86be-8e717294a623",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Keratina y argán",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "34feb362-38f3-4dd4-9822-86fd5f67f7d7",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Neutro",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d253d91b-82f9-4188-adfa-6abaccea6c02",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Biotina",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d9cdeae0-aaca-479f-a247-efdb0f5e095f",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Almendras",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "016ea717-629c-4b21-b6b9-fc9beb509810",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Coco",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3a9b8506-55cc-4924-bb00-100d031a5d4e",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Extra ácido",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "f7965362-57ec-4ea0-a6a3-e0b9680fd258",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Células madre",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "ba52fa13-5c34-4ce0-a97d-ee79bc6185af",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Macadamia",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "8c50da88-30c9-4c47-a370-1b37e36acd56",
+    "brand": "BF",
+    "name": "Enjuague",
+    "type": "Keratina y argán",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8718,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "24c3a610-1603-4b15-a765-a583a61ed5de",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Aceite de patois",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a4383a5f-d941-4422-ae2a-c5ef0c826382",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Cóctel nutritivo",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9b794ab0-c5d7-4e91-ab62-16d917eedde9",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Almendras",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "f3db6748-92a3-4043-934b-c2db9336da13",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Extra ácido",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "bc428ae3-8ed7-4308-b023-50da6eb10b41",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Keratina y argán",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "35c6b4d1-b63f-4447-a865-8e1fb54703f0",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Coco",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "723a3236-7027-4d42-be91-8f878ea5ae8d",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Macadamia",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "2684ac9a-e64a-43a1-8fdc-a108f7374564",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Biotina, té verde y menta",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "42ff70cb-827e-4030-a6fb-8bfaae94948e",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Pistacho",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9bdde8be-ea59-433e-b557-8da8cc0be8b3",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "8242877e-fdd7-418c-8006-9515c8ed59a5",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Bótox",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "90beba45-cec9-4ff2-86ed-bee7dd027514",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Multifunción",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a8c77ea4-6500-4dd7-897f-f0e507a32fd8",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Rulos",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9ab18750-e2ab-4804-8360-73fdbaf6e826",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Aceite de patois",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "bdf4f40c-ad95-482d-80cc-052a7011e3cc",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Cóctel nutritivo",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "cf974b23-111c-4df4-abff-5a74906ce3f3",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Almendras",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3f29b566-062d-4008-91fd-a43080ec1d65",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Extra ácido",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "10cdc444-7d52-41f1-8ca9-260eff161e25",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Keratina y argán",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e1fa947a-49d7-4ca4-8f94-fcd55a80cc9c",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Coco",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "2d670c78-372d-494c-9bed-ad0a8f743cae",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Macadamia",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "7f9d88f3-7d8f-4231-8fad-4d296e09fcdd",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Biotina, té verde y menta",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9d32cdba-929a-4407-acab-b8f5a8c4fbc1",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Pistacho",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "0f3f8a06-11b9-4370-9865-d0cf25721695",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Células madre",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9dad454a-a320-4a3a-8c9b-cb28aaa1b373",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Bótox",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "aba98195-1b79-438e-9706-e9dd1db3447b",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Multifunción",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "52fea17d-cb3d-441b-b6a1-1f1e5fb633cd",
+    "brand": "BF",
+    "name": "Baño de crema",
+    "type": "Rulos",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "6eb2d6e5-6888-449b-b4eb-9fe1937dba36",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Violeta",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2678,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "956170cd-f99b-4a69-ae26-29a9be8aa253",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Rojo",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2678,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "6cb2891d-c2bd-42b5-8bca-36ba0343abba",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Azul",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2678,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "107591cf-f90d-4cfb-bd31-30cf78669f0d",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Negro",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2678,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "00ca9da5-8060-4180-ac60-fb2df1b28d5a",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Violeta",
+    "volume": 5,
+    "size": "Litros",
+    "price": 9178,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d2c1cf5a-43b7-4e96-a028-d5d717ab9184",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Rojo",
+    "volume": 5,
+    "size": "Litros",
+    "price": 9178,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3701fa58-fb17-4846-92cb-973e52f8a320",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Azul",
+    "volume": 5,
+    "size": "Litros",
+    "price": 9178,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "04c61661-7fc7-4eb9-8ef2-d61f0ac7fc51",
+    "brand": "BF",
+    "name": "Shampoo Matizador",
+    "type": "Negro",
+    "volume": 5,
+    "size": "Litros",
+    "price": 9178,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d436497f-ff2d-4c57-9f91-2acda08709dd",
+    "brand": "BF",
+    "name": "Bótox Matizador",
+    "type": "Violeta",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3794,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "80daa066-130d-47ce-a3a6-d99e37735a2b",
+    "brand": "BF",
+    "name": "Baño de crema Matizador",
+    "type": "Violeta",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3597,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3f62a75d-169d-4ded-8419-e29b1d6cf8dd",
+    "brand": "BF",
+    "name": "Baño de crema Matizador",
+    "type": "Violeta",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e417048e-b7f9-48a6-b010-72942d7bb783",
+    "brand": "BF",
+    "name": "Gel",
+    "type": "Fuerte",
+    "volume": 330,
+    "size": "Grs",
+    "price": 1456,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9ca048f0-a3de-4664-bd73-baa4a5b27607",
+    "brand": "BF",
+    "name": "Gel",
+    "type": "Fuerte",
+    "volume": 1,
+    "size": "Kg",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a170a798-51f0-4259-97fa-070eedaec79a",
+    "brand": "BF",
+    "name": "Decolorante",
+    "type": "Celeste",
+    "volume": 700,
+    "size": "Grs",
+    "price": 6500,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a697e62f-25b7-4253-9d64-d93de5b0c8f7",
+    "brand": "Issue",
+    "name": "Decolorante",
+    "type": "White",
+    "volume": 700,
+    "size": "Grs",
+    "price": 15000,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "46b0559b-5de8-4bf2-afca-1c607ba14da0",
+    "brand": "BF",
+    "name": "Gorros",
+    "type": "Latex",
+    "volume": 12,
+    "size": "Unidades",
+    "price": 7000,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "98c31acf-34c4-41c2-b65d-496bd30a39ae",
+    "brand": "BF",
+    "name": "Bandas térmicas",
+    "type": "Reflejos",
+    "volume": 40,
+    "size": "Unidades",
+    "price": 1528,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "45f26044-d4af-4ef4-b494-1f8ece3249f5",
+    "brand": "BF",
+    "name": "Aceite restaurador de puntas",
+    "type": "Argán",
+    "volume": 40,
+    "size": "cc",
+    "price": 3516,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "2ca2fdaf-a17b-4b6c-8318-664736294b45",
+    "brand": "BF",
+    "name": "Aceite restaurador de puntas",
+    "type": "Almendras",
+    "volume": 40,
+    "size": "cc",
+    "price": 3516,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "87987ebf-6309-4392-9a9c-6239cca2b01f",
+    "brand": "BF",
+    "name": "Aceite restaurador de puntas",
+    "type": "Coco y ricino",
+    "volume": 40,
+    "size": "cc",
+    "price": 3516,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "7f828d7a-a65d-42ee-98d8-92c8e04b29bc",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "10 volúmenes",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2294,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9b0b2868-c45f-4f87-8a4e-8b4ca0de6ffd",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "20 volúmenes",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2869,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a6317e76-343a-4760-b64d-a9ebf7aff349",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "30 volúmenes",
+    "volume": 1,
+    "size": "Litro",
+    "price": 2869,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "ae48736e-da66-4d1e-b530-3952ed2a4bd7",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "40 volúmenes",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3794,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "8f489194-5ea0-462c-8c35-3d384f488d70",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "50 volúmenes",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3794,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "35b83d79-2c5c-44aa-a7ee-b38401fa395b",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "100 volúmenes",
+    "volume": 1,
+    "size": "Litro",
+    "price": 7587,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "42b3c087-27d2-4d8a-8c5d-35431d6f716c",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "10 volúmenes",
+    "volume": 5,
+    "size": "Litros",
+    "price": 9944,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "395b8ac2-5282-4b41-95d0-f669f9508d31",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "20 volúmenes",
+    "volume": 5,
+    "size": "Litros",
+    "price": 13010,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "b10ed46d-553d-4c88-bd2b-972417a0a104",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "30 volúmenes",
+    "volume": 5,
+    "size": "Litros",
+    "price": 13010,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e7916b55-2051-4e1a-87a9-0fa841c876b6",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "40 volúmenes",
+    "volume": 5,
+    "size": "Litros",
+    "price": 14150,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "5cf385f2-ed4c-4611-8fc8-ab500dea885d",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "50 volúmenes",
+    "volume": 5,
+    "size": "Litros",
+    "price": 14150,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "1246ccd8-f2cc-4f5d-b171-77c8160fc349",
+    "brand": "BF",
+    "name": "Oxidante",
+    "type": "100 volúmenes",
+    "volume": 5,
+    "size": "Litros",
+    "price": 26556,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "b5f4f194-c939-45ae-8e25-27c230136eda",
+    "brand": "BF",
+    "name": "Tratamiento con atomizador",
+    "type": "Bi Fase",
+    "volume": 300,
+    "size": "cc",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "95ef83eb-0b27-45d1-8be2-c6a6d4101abe",
+    "brand": "BF",
+    "name": "Tratamiento con atomizador",
+    "type": "Shock de keratina",
+    "volume": 300,
+    "size": "cc",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "0b3302ac-e911-4102-a2b2-3fe2dc912c66",
+    "brand": "BF",
+    "name": "Tratamiento con atomizador",
+    "type": "Bótox",
+    "volume": 300,
+    "size": "cc",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d8b3b7f6-f57e-45f4-80de-e32097c39943",
+    "brand": "BF",
+    "name": "Tratamiento con atomizador",
+    "type": "Oro líquido",
+    "volume": 300,
+    "size": "cc",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "0b4533c0-d2b2-4efa-be64-32fc1dcd931f",
+    "brand": "BF",
+    "name": "Tratamiento con atomizador",
+    "type": "Protector térmico",
+    "volume": 300,
+    "size": "cc",
+    "price": 2524,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "4908eafd-ff85-4942-9005-0d6a20e5814d",
+    "brand": "BF",
+    "name": "Tratamiento con formol",
+    "type": "Cauterizador capilar",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "f4a96770-56be-4773-8c80-0783ba2bd2b4",
+    "brand": "BF",
+    "name": "Tratamiento con formol",
+    "type": "Shock Keratínico",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "986281b0-9e19-4e12-83f3-242ffb4aff73",
+    "brand": "BF",
+    "name": "Tratamiento con formol",
+    "type": "Shock Keratínico Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "069eeb9a-7746-4937-a5c0-0e324ccbdf24",
+    "brand": "BF",
+    "name": "Tratamiento con formol",
+    "type": "Bótox",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "5d1df810-0861-41f6-b3c9-e993ccbe29b3",
+    "brand": "BF",
+    "name": "Tratamiento con formol",
+    "type": "Hidrocauterizado",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "20c126ea-3682-4a6e-97ae-12ba07318cce",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Plex Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "97fa90c6-1792-4478-b41f-852b06a5f85c",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Cirugía capilar",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d1b46131-0ecb-4a50-aec9-34330f0a2aed",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Biotina",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "172098b9-8079-4360-b9ee-a351cd03ca6c",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Recuplex",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "61ba96d8-cf54-4e5c-b7f1-cc55e15c48b7",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Oro Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d3f89401-8c66-42f0-a8c7-af88a4eec74e",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Protector Térmico Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "44ee2c83-0384-470f-ac39-a98d6e05acb2",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Bomba Proteica Kerabotox Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "fb98806a-66e7-40a5-9787-36f9d2aeacf3",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Células Madre",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "04eba961-92cc-4e5b-a043-35ee983806e4",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Cauterizador Biomolecular",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9754c36e-c583-409a-b372-ee0b08b8a0b0",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Bótox Biomolecular",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e0653482-46ef-4706-95da-9703e4fd5a0b",
+    "brand": "BF",
+    "name": "Tratamiento sin formol",
+    "type": "Prolongador de tratamiento Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "459cfcf0-343f-4ce4-bca4-757cdda22ec3",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Plastificado",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d8918bd5-6bb3-4bad-b386-4588947081cf",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Japonés",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "df7d4cd6-0bfa-4bbb-b1b8-7a15756714b2",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Brasilero 6D",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "fb135811-824e-49f8-bc75-9e6a437a0e3b",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Doble con Nanoplastía",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "39ad1566-b300-4464-a931-10bb81ed2b86",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Lifting Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "09783f3c-6411-4150-b123-c3a20ce206b6",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Fresa",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "80c3b690-1961-406a-a525-ad46444b6314",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Nanoplastía en Gel",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d217d0a0-a4cf-4170-bf81-53f0e466f23e",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Trifásico Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "6d693601-a5da-4849-b346-e1108f9b04c2",
+    "brand": "BF",
+    "name": "Alisado con formol",
+    "type": "Nanoplastía Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "bfd7ebcb-f5e2-45dd-890b-ae6e879c237f",
+    "brand": "BF",
+    "name": "Alisado sin formol",
+    "type": "Biomolecular",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "f823b8bb-0942-4b21-87bc-58b1231e9781",
+    "brand": "BF",
+    "name": "Alisado sin formol",
+    "type": "Prolongador de alisado Líquido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3827,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "c3a01904-6fbc-44ca-8b3f-94036677b1df",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Neutro",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d77c6821-bb60-4fa2-81ba-64fbe88cfa1c",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Argán",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "51bab6df-cbbf-4d29-9cc9-fdc770e15a72",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Células madre",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "faa762e0-d7dc-44fb-b566-2e06d634c985",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Ácido",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "ad80a8e6-6eea-4d47-961b-d9e37e1d50bc",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Hyaluron",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "f67cd76d-f86f-42ec-aa12-0d9f93649ab0",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Neutro",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "97d93b39-a661-4de7-a09b-d8dee77d4fe8",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Argán",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d05afcbd-0e80-4b75-87d6-c1555c43ad64",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a1a4285c-a8d3-402d-b771-46b0f061327a",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Ácido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a18b81c8-025d-4e06-8274-e4e53f38f99a",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Hyaluron",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "da0ec70c-92c7-4f67-9c25-cfb1ec87aa05",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Neutro",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e3f64b2c-33b5-4d73-aa22-dc62711a39ef",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Argán",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "27c34d7b-c1d0-43cb-ad50-a0ecee4f0703",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Células madre",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "cfc383fb-f3a0-4bf5-95ca-b03459941496",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Ácido",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d2181d62-8659-4985-b99a-0913706c6cf5",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Hyaluron",
+    "volume": 5,
+    "size": "Litros",
+    "price": 7266,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d2658709-2cde-47ef-9452-70cfab407a14",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Argán",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "cea20491-685e-4cb2-8c5b-804e5f160e0a",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Células madre",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "873783d4-add6-4572-934d-54ba2a399f1b",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Ácido",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "4b34172c-e6c1-4836-b931-a2daec8bee40",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Hyaluron",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3ad4b712-cd65-4ec0-b162-e0a5c52f590d",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Argán",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3214,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "81c09657-7c83-4a88-9741-c5209f958f96",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3214,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "46a3f84f-cba6-400e-9e40-edd45d13230a",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Ácido",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3214,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "08c1a6e8-0468-4b1b-8232-c3a2b0a6957f",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Hyaluron",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3214,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "232b1d43-2767-4399-9b8c-d2e0d956803e",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Argán",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8876,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "df74764a-da10-4fcb-b478-076ac23c9c39",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Células madre",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8876,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "6434afd9-79c9-4ac7-9aa2-e7f6f3586531",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Ácido",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8876,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "0dbdd20b-d0a0-43a1-9504-5f283ebc7885",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Hyaluron",
+    "volume": 5,
+    "size": "Litros",
+    "price": 8876,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9f8922f4-4ab5-4af3-bcbe-ac9841a14fe0",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Argán",
+    "volume": 1,
+    "size": "Kg",
+    "price": 4052,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "8e78c0bd-ea67-4e87-8533-bfa3e70380c5",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Kg",
+    "price": 4052,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9cc70758-6720-4e91-93b2-ce3a1b50e0dd",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Ácido",
+    "volume": 1,
+    "size": "Kg",
+    "price": 4052,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "7d2098db-bd62-4809-b961-4f43e45917ce",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Hyaluron",
+    "volume": 1,
+    "size": "Kg",
+    "price": 4052,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a221c08a-f672-4829-b762-c19a0707afec",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Argán",
+    "volume": 250,
+    "size": "Grs",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "b3057241-cfc2-49a8-a76b-e062afe73c43",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Células madre",
+    "volume": 250,
+    "size": "Grs",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d201715e-ef41-48ec-a5df-d9b3dd76dd81",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Ácido",
+    "volume": 250,
+    "size": "Grs",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3acab09e-e2af-44fa-adc0-aaef28a209e6",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Hyaluron",
+    "volume": 250,
+    "size": "Grs",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "656bd946-f7d7-4723-8ae0-f9cb4d8fa767",
+    "brand": "Grass Line",
+    "name": "Alisado con formol",
+    "type": "Hyaluron",
+    "volume": 1,
+    "size": "Litro",
+    "price": 4594,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "9a0ebb6e-2146-406c-8488-a6bda0daef10",
+    "brand": "Grass Line",
+    "name": "Alisado sin formol",
+    "type": "Células madre",
+    "volume": 1,
+    "size": "Litro",
+    "price": 4594,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "995b68e1-9826-4b16-9144-e9271ecc3b61",
+    "brand": "Grass Line",
+    "name": "Shampoo Matizador",
+    "type": "Violeta",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "69bab777-4978-46e6-919b-ec118f34affb",
+    "brand": "Grass Line",
+    "name": "Shampoo Matizador",
+    "type": "Violeta",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "3b08c295-4d18-4a5d-a769-067b4a51e99f",
+    "brand": "Grass Line",
+    "name": "Shampoo Matizador",
+    "type": "Violeta",
+    "volume": 5,
+    "size": "Litros",
+    "price": 9178,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "b417847a-5aab-4847-87bd-50dae8ad9bc4",
+    "brand": "Grass Line",
+    "name": "Baño de crema Matizador",
+    "type": "Violeta",
+    "volume": 1,
+    "size": "Kg",
+    "price": 4052,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "e11bfcfb-f13a-450b-bf98-44cb81222efe",
+    "brand": "Grass Line",
+    "name": "Baño de crema Matizador",
+    "type": "Violeta",
+    "volume": 250,
+    "size": "Grs",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "19033de4-29f1-4de6-bd19-2b7cd3ceab81",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Rizos Perfectos",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "d5660151-7415-47e3-85db-7d2e6835cf67",
+    "brand": "Grass Line",
+    "name": "Shampoo",
+    "type": "Rizos Perfectos",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3056,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "de1c3091-7f05-4465-836a-a69debdb3949",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Rizos Perfectos",
+    "volume": 1,
+    "size": "Litro",
+    "price": 3214,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "a7b6965e-b590-422b-8343-c668df47c354",
+    "brand": "Grass Line",
+    "name": "Enjuague",
+    "type": "Rizos Perfectos",
+    "volume": 350,
+    "size": "cc",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "81bc5a26-e2fa-4b13-836d-d424716e4d5e",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Rizos Perfectos",
+    "volume": 250,
+    "size": "Grs",
+    "price": 1686,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "66745f04-1b77-4bde-8f1c-0547f987a858",
+    "brand": "Grass Line",
+    "name": "Baño de crema",
+    "type": "Rizos Perfectos",
+    "volume": 1,
+    "size": "Kg",
+    "price": 4052,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  },
+  {
+    "id": "8f4228ab-dc35-4b72-bcf2-d010f197d7c3",
+    "brand": "Grass Line",
+    "name": "Crema para peinar",
+    "type": "Rizos Perfectos",
+    "volume": 350,
+    "size": "cc",
+    "price": 1835,
+    "image": "https://cdn.vectorstock.com/i/preview-1x/32/45/no-image-symbol-missing-available-icon-gallery-vector-45703245.jpg"
+  }
+]

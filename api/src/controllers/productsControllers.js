@@ -24,6 +24,11 @@ const postProductController = async (
   return newProduct;
 };
 
+const postProductsController = async (data) => {
+  const products = await Product.bulkCreate(data);
+  return products;
+};
+
 const getProductsController = async () => {
   const allProducts = await Product.findAll();
   if (!allProducts) return "No hay productos cargados en la base de datos";
@@ -57,4 +62,5 @@ module.exports = {
   deleteProductController,
   patchProductController,
   getProductByIdController,
+  postProductsController,
 };

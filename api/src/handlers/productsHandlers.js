@@ -4,6 +4,7 @@ const {
   patchProductController,
   deleteProductController,
   getProductByIdController,
+  postProductsController,
 } = require("../controllers/productsControllers");
 
 const postProductHandler = async (req, res) => {
@@ -21,6 +22,16 @@ const postProductHandler = async (req, res) => {
       image
     );
     res.status(200).json(newProduct);
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
+};
+
+const postProductsHandler = async (req, res) => {
+  try {
+    const data = req.body;
+    const newProducts = await postProductsController(data);
+    res.status(200).json(newProducts);
   } catch (error) {
     res.status(400).json(error.message);
   }
@@ -72,4 +83,5 @@ module.exports = {
   deleteProductHandler,
   patchProductHandler,
   getProductByIdHandler,
+  postProductsHandler,
 };
