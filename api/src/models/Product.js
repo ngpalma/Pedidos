@@ -1,8 +1,5 @@
 const { DataTypes } = require("sequelize");
-// Exportamos una funcion que define el modelo
-// Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
-  // defino el modelo
   sequelize.define(
     "product",
     {
@@ -11,30 +8,49 @@ module.exports = (sequelize) => {
         primaryKey: true,
         defaultValue: DataTypes.UUIDV4,
       },
-      brand: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
       name: {
         type: DataTypes.STRING,
         allowNull: false,
+        validate: {
+          notEmpty: {
+            msg: "El nombre del producto no puede estar vacío",
+          },
+          len: {
+            args: [3, 25],
+            msg: "El nombre del producto debe tener entre 3 y 25 caracteres",
+          },
+        },
       },
-      type: {
+      article: {
         type: DataTypes.STRING,
-        allowNull: false,
+        unique: true,
+        validate: {
+          len: {
+            args: [0, 25],
+            msg: "El artículo del producto debe tener como máximo 25 caracteres",
+          },
+        },
       },
-      volume: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-      },
-      size: {
-        type: DataTypes.STRING,
+      detail: {
+        type: DataTypes.TEXT,
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: "La descripcion del producto debe tener como máximo 255 caracteres",
+          },
+        },
       },
       price: {
         type: DataTypes.FLOAT,
-      },
-      image: {
-        type: DataTypes.STRING,
+        validate: {
+          isFloat: {
+            msg: "El precio debe ser un número válido",
+          },
+          min: {
+            args: [0],
+            msg: "El precio debe ser mayor o igual a 0",
+          },
+        },
       },
     },
     { timestamps: false }

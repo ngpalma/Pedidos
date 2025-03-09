@@ -25,7 +25,7 @@ export const isOwner = async (req, res, next) => {
 // Verificar si un usuario está autenticado antes de permitir el acceso
 export const isAuthenticated = async (req, res, next) => {
   try {
-    const sessionToken = req.cookies["SPLENDID-AUTH"];
+    const sessionToken = req.cookies[process.env.COOKIES];
 
     if (!sessionToken) {
       return res.sendStatus(403);

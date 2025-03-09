@@ -1,3 +1,5 @@
+const { Brand, Size, Segment, Product } = require("../db");
+const { Op } = require("sequelize");
 const {
   postProductController,
   getProductsController,
@@ -6,20 +8,52 @@ const {
   getProductByIdController,
   postProductsController,
 } = require("../controllers/productsControllers");
+const {
+  buildWhereClause,
+  buildIncludeClause,
+  buildOrderClause,
+} = require("../helpers/filterAndSort");
 
 const postProductHandler = async (req, res) => {
   try {
-    const { brand, name, type, volume, size, price, image } = req.body;
-    if (![brand, name, type, volume, size, price, image].every(Boolean))
-      throw new Error("Faltan datos");
+    const { name, detail, price, brandId, segmentId, sizeId } = req.body;
+
+    const brand = await Brand.findByPk(brandId);
+    const size = await Size.findByPk(sizeId);
+    const segment = await Segment.findByPk(segmentId);
+    if (!brand) throw new Error("No se encuentra la marca");
+    if (!size) throw new Error("No se encuentra el tamaño");
+    if (!segment) throw new Error("No se encuentra el segmento");
+
+    if (![name, detail, price, brandId, segmentId, sizeId].every(Boolean))
+      throw new Error("Faltan cargar algunos datos");
+
+    const brandPrefix = brand.name.slice(0, 2).toUpperCase();
+
+    const maxArticle = await Product.max("article", {
+      where: {
+        article: {
+          [Op.like]: `${brandPrefix}%`,
+        },
+      },
+    });
+
+    let nextNumber = 1001;
+    if (maxArticle) {
+      const currentMaxNumber = parseInt(maxArticle.slice(1), 10);
+      nextNumber = currentMaxNumber + 1;
+    }
+
+    const article = `${brandPrefix}${nextNumber}`;
+
     const newProduct = await postProductController(
-      brand,
       name,
-      type,
-      volume,
-      size,
+      detail,
       price,
-      image
+      brandId,
+      segmentId,
+      sizeId,
+      article
     );
     res.status(200).json(newProduct);
   } catch (error) {
@@ -39,7 +73,10 @@ const postProductsHandler = async (req, res) => {
 
 const getProductsHandler = async (req, res) => {
   try {
-    const allProducts = await getProductsController();
+    const where = buildWhereClause(req.query);
+    const include = buildIncludeClause(req.query);
+    const order = buildOrderClause(req.query);
+    const allProducts = await getProductsController(where, include, order);
     res.status(200).json(allProducts);
   } catch (error) {
     res.status(400).json(error.message);

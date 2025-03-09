@@ -1,9 +1,8 @@
 const { DataTypes } = require("sequelize");
-// Exportamos una funcion que define el modelo
-// Luego le injectamos la conexion a sequelize.
+const bcrypt = require("bcryptjs");
+
 module.exports = (sequelize) => {
-  // defino el modelo
-  sequelize.define(
+  const User = sequelize.define(
     "user",
     {
       id: {
@@ -22,19 +21,49 @@ module.exports = (sequelize) => {
       email: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true,        
+        unique: true,
+        validate: {
+          isEmail: true,
+        },
       },
       password: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      salt: {
-        type: DataTypes.STRING,
+      telephone: {
+        type: DataTypes.BIGINT,
       },
-      sessionToken: {
-        type: DataTypes.STRING,
+      role: {
+        type: DataTypes.ENUM("admin", "client"),
+        defaultValue: "client",
+      },
+      state: {
+        type: DataTypes.ENUM("enabled", "disabled"),
+        defaultValue: "enabled",
       },
     },
     { timestamps: false }
   );
+
+  // Hook para hash de contraseñas antes de guardar
+  User.beforeCreate(async (user) => {
+    if (user.password) {
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(user.password, salt);
+    }
+  });
+
+  User.beforeUpdate(async (user) => {
+    if (user.password) {
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(user.password, salt);
+    }
+  });
+
+  // Método para validar contraseñas
+  User.prototype.validPassword = async function (password) {
+    return await bcrypt.compare(password, this.password);
+  };
+
+  return User;
 };

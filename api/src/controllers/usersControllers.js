@@ -5,22 +5,23 @@ const createUserController = async ({
   email,
   firstName,
   lastName,
-  salt,
   password,
 }) => {
-  const [newUser, created] = await User.findOrCreate({
-    where: {
-      email,
-      firstName,
-      lastName,
-      salt,
-      password,
-    },
-  });
+  try {
+    const [newUser, created] = await User.findOrCreate({
+      where: { email },
+      defaults: { firstName, lastName, password },
+    });
 
-  if (!created)
-    return "El usuario ya se encuentra registrado en la base de datos";
-  return newUser;
+    if (!created) {
+      throw new Error(
+        "El usuario ya se encuentra registrado en la base de datos"
+      );
+    }
+    return newUser;
+  } catch (error) {
+    throw new Error(error.message || "Error al crear el usuario");
+  }
 };
 
 //obtener todos los usuarios de la base de datos
@@ -39,11 +40,16 @@ const patchUserController = async (id, data) => {
 };
 
 //eliminar un usuario existente de la base de datos
-const deleteUserController = async (id) => {
-  const user = await User.findByPk(id);
-  if (!user) return "No se encontro al usuario o ya fue eliminado";
-  const deletedUser = await user.destroy();
-  return deletedUser;
+const deleteUserController = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const user = await User.findByPk(id);
+    if (!user) return "No se encontro al usuario o ya fue eliminado";
+    const deletedUser = await user.destroy();
+    res.status(200).json({ message: "Cuenta eliminada correctamente" });
+  } catch (error) {
+    res.status(400).json(error.message);
+  }
 };
 
 //encontrar un usuario en la base de datos por su id

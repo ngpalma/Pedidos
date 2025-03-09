@@ -1,6 +1,6 @@
 const crypto = require("crypto");
 
-const SECRET = process.env.SECRET;
+const SECRET = process.env.JWT_SECRET;
 
 // Crea una cadena de caracteres aleatorios
 const random = () => crypto.randomBytes(128).toString("base64");

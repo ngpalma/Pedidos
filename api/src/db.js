@@ -2,26 +2,20 @@ require("dotenv").config();
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY } = process.env;
+const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } = process.env;
 
 const sequelize = new Sequelize(
-  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/pedidos`,
+  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`,
   {
-    logging: false, // set to console.log to see the raw SQL queries
-    native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+    logging: false,
+    native: false,
   }
 );
-
-// const sequelize = new Sequelize(DB_DEPLOY, {
-//   logging: false, // set to console.log to see the raw SQL queries
-//   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
-// });
 
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
 
-// Leemos todos los archivos de la carpeta Models, los requerimos y agregamos al arreglo modelDefiners
 fs.readdirSync(path.join(__dirname, "/models"))
   .filter(
     (file) =>
@@ -31,9 +25,7 @@ fs.readdirSync(path.join(__dirname, "/models"))
     modelDefiners.push(require(path.join(__dirname, "/models", file)));
   });
 
-// Injectamos la conexion (sequelize) a todos los modelos
 modelDefiners.forEach((model) => model(sequelize));
-// Capitalizamos los nombres de los modelos ie: product => Product
 let entries = Object.entries(sequelize.models);
 let capsEntries = entries.map((entry) => [
   entry[0][0].toUpperCase() + entry[0].slice(1),
@@ -41,14 +33,20 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-// En sequelize.models están todos los modelos importados como propiedades
-// Para relacionarlos hacemos un destructuring
-const { Client, Product } = sequelize.models;
+const { User, Product, Address, Brand, Size, Segment, Image } =
+  sequelize.models;
 
-// Aca vendrian las relaciones
-// Product.hasMany(Reviews);
-Client.belongsToMany(Product, { through: "product_client" });
-Product.belongsToMany(Client, { through: "product_client" });
+Size.hasMany(Product);
+Product.belongsTo(Size);
+
+Brand.hasMany(Product);
+Product.belongsTo(Brand);
+
+Segment.hasMany(Product);
+Product.belongsTo(Segment);
+
+Product.hasMany(Image);
+Image.belongsTo(Product);
 
 module.exports = {
   ...sequelize.models,

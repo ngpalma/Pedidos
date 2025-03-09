@@ -1,14 +1,12 @@
-const { Product, Client } = require("../db");
+const { Client } = require("../db");
 
 //cargar un cliente en la base de datos si es que no existe
-const postClientController = async (name, address, telephone, city) => {
+const postClientController = async (fullName, phone, addressId) => {
   const [newClient, created] = await Client.findOrCreate({
     where: {
-      name,
-      address,
-      telephone,
-      city,
+      fullName,
     },
+    defaults: { phone, addressId },
   });
   if (!created) return "El cliente ya se encuentra en la base de datos";
   return newClient;

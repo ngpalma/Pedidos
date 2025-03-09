@@ -1,3 +1,4 @@
+const { Address } = require("../db");
 const {
   postClientController,
   getClientsController,
@@ -9,14 +10,13 @@ const {
 //cargar un cliente siempre que esten completos todos los datos
 const postClientHandler = async (req, res) => {
   try {
-    const { name, address, telephone, city } = req.body;
-    if (![name, address, telephone, city].every(Boolean))
+    const { fullName, phone, addressId } = req.body;
+    const address = await Address.findByPk(addressId);
+    if (!address) throw new Error("No se encuentra la dirección");
+    if (![fullName, phone, addressId].every(Boolean))
       throw new Error("Complete todos los datos");
     const newClient = await postClientController(
-      name,
-      address,
-      telephone,
-      city
+      fullName, phone, addressId
     );
     res.status(200).json(newClient);
   } catch (error) {
