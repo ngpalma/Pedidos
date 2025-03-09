@@ -36,6 +36,9 @@ sequelize.models = Object.fromEntries(capsEntries);
 const { User, Product, Address, Brand, Size, Segment, Image } =
   sequelize.models;
 
+User.hasMany(Address);
+Address.belongsTo(User);
+
 Size.hasMany(Product);
 Product.belongsTo(Size);
 
@@ -47,6 +50,24 @@ Product.belongsTo(Segment);
 
 Product.hasMany(Image);
 Image.belongsTo(Product);
+
+Product.belongsToMany(User, { through: "cart" });
+User.belongsToMany(Product, { through: "cart" });
+
+Product.belongsToMany(User, { through: "wishlist" });
+User.belongsToMany(Product, { through: "wishlist" });
+
+Product.belongsToMany(User, { through: "review" });
+User.belongsToMany(Product, { through: "review" });
+
+Product.belongsToMany(User, { through: "rating" });
+User.belongsToMany(Product, { through: "rating" });
+
+Product.belongsToMany(User, { through: "order" });
+User.belongsToMany(Product, { through: "order" });
+
+Product.belongsToMany(User, { through: "favorite" });
+User.belongsToMany(Product, { through: "favorite" });
 
 module.exports = {
   ...sequelize.models,
