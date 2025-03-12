@@ -15,12 +15,14 @@ module.exports = (sequelize) => {
           notEmpty: {
             msg: "La ruta del archivo no puede estar vacía",
           },
+          isUrl: true,
         },
       },
       filename: {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      type: { type: DataTypes.ENUM("image", "video"), defaultValue: "image" },
     },
     { timestamps: false }
   );

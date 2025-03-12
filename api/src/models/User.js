@@ -13,10 +13,12 @@ module.exports = (sequelize) => {
       firstName: {
         type: DataTypes.STRING,
         allowNull: false,
+        validate: { len: [2, 50] },
       },
       lastName: {
         type: DataTypes.STRING,
         allowNull: false,
+        validate: { len: [2, 50] },
       },
       email: {
         type: DataTypes.STRING,
@@ -31,7 +33,8 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       telephone: {
-        type: DataTypes.BIGINT,
+        type: DataTypes.STRING,
+        validate: { len: [7, 20] },
       },
       role: {
         type: DataTypes.ENUM("admin", "client"),
@@ -42,7 +45,7 @@ module.exports = (sequelize) => {
         defaultValue: "enabled",
       },
     },
-    { timestamps: false }
+    { timestamps: true }
   );
 
   // Hook para hash de contraseñas antes de guardar
@@ -54,7 +57,7 @@ module.exports = (sequelize) => {
   });
 
   User.beforeUpdate(async (user) => {
-    if (user.password) {
+    if (user.changed("password")) {
       const salt = await bcrypt.genSalt(10);
       user.password = await bcrypt.hash(user.password, salt);
     }

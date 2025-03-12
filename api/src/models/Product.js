@@ -16,7 +16,7 @@ module.exports = (sequelize) => {
             msg: "El nombre del producto no puede estar vacío",
           },
           len: {
-            args: [3, 25],
+            args: [3, 50],
             msg: "El nombre del producto debe tener entre 3 y 25 caracteres",
           },
         },
@@ -32,13 +32,7 @@ module.exports = (sequelize) => {
         },
       },
       detail: {
-        type: DataTypes.TEXT,
-        validate: {
-          len: {
-            args: [0, 255],
-            msg: "La descripcion del producto debe tener como máximo 255 caracteres",
-          },
-        },
+        type: DataTypes.TEXT,        
       },
       price: {
         type: DataTypes.FLOAT,
@@ -52,7 +46,8 @@ module.exports = (sequelize) => {
           },
         },
       },
+      stock: { type: DataTypes.INTEGER, defaultValue: 0, validate: { min: 0 } },
     },
-    { timestamps: false }
+    { timestamps: false, indexes: [{ fields: ["name"] }] }
   );
 };

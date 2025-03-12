@@ -8,12 +8,18 @@ module.exports = (sequelize) => {
         primaryKey: true,
         defaultValue: DataTypes.UUIDV4,
       },
-      name: {
+      street: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: { len: [2, 100] },
+      },
+      number: {
         type: DataTypes.STRING,
         allowNull: false,
       },
       state: {
         type: DataTypes.STRING,
+        allowNull: false,
         validate: {
           notEmpty: {
             msg: "La provincia no puede estar vacía",
