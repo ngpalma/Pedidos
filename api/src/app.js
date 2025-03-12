@@ -13,7 +13,7 @@ const server = express();
 server.name = "API";
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: process.env.FRONTEND_URL || "http://localhost:5173",
   credentials: true,
   methods: ["GET", "POST", "OPTIONS", "PUT", "DELETE"],
   allowedHeaders: [
@@ -30,13 +30,8 @@ server.use(cookieParser());
 server.use(cors(corsOptions));
 server.use(express.json());
 server.use(morgan("dev"));
-
 server.use("/uploads", express.static("uploads"));
-
 server.use("/", routes);
-
 server.use(notFoundHandler);
-
 server.use(errorHandler);
-
 module.exports = server;
