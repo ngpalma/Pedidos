@@ -3,7 +3,7 @@ const { conn } = require("./src/db.js");
 const port = process.env.PORT || 3001;
 
 conn
-  .sync({ force: true })
+  .sync({ alter: true })
   .then(async () => {
     console.log("All models were synchronized successfully.");
     server.listen(port, () => {
@@ -11,5 +11,6 @@ conn
     });
   })
   .catch((err) => {
-    console.error("Error:", err);
+    console.error("Error syncing database:", err.message);
+    process.exit(1);
   });
