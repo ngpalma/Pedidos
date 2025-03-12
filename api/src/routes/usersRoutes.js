@@ -11,9 +11,10 @@ const { authToken, authorizeAdmin } = require("../middlewares/authMiddleware");
 const usersRoutes = Router();
 
 usersRoutes.get("/", authToken, authorizeAdmin, getUsersHandler);
-usersRoutes.get("/:email", authToken, getUserByEmailHandler);
+usersRoutes.get("/me", authToken, getUserByIdHandler);
+usersRoutes.get("/email/:email", authToken, getUserByEmailHandler);
 usersRoutes.get("/:id", authToken, getUserByIdHandler);
-usersRoutes.patch("/update/:id", authToken, patchUserHandler);
-usersRoutes.delete("/delete/:id", authToken, deleteUserController);
+usersRoutes.patch("/:id", authToken, patchUserHandler);
+usersRoutes.delete("/:id", authToken, authorizeAdmin, deleteUserController);
 
 module.exports = usersRoutes;

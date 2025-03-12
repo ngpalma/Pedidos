@@ -6,13 +6,14 @@ const {
   patchSizeHandler,
   deleteSizeHandler,
 } = require("../handlers/sizesHandlers");
+const { authToken, authorizeAdmin } = require("../middlewares/authMiddleware");
 
 const sizesRoutes = Router();
 
 sizesRoutes.get("/", getSizesHandler);
 sizesRoutes.get("/:id", getSizeByIdHandler);
-sizesRoutes.post("/", postSizeHandler);
-sizesRoutes.patch("/:id", patchSizeHandler);
-sizesRoutes.delete("/:id", deleteSizeHandler);
+sizesRoutes.post("/", authToken, authorizeAdmin, postSizeHandler);
+sizesRoutes.patch("/:id", authToken, authorizeAdmin, patchSizeHandler);
+sizesRoutes.delete("/:id", authToken, authorizeAdmin, deleteSizeHandler);
 
 module.exports = sizesRoutes;

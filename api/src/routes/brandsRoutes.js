@@ -6,13 +6,14 @@ const {
   patchBrandsHandler,
   getBrandsByIdHandler,
 } = require("../handlers/brandsHandlers");
+const { authToken, authorizeAdmin } = require("../middlewares/authMiddleware");
 
 const brandsRoutes = Router();
 
 brandsRoutes.get("/", getBrandsHandler);
 brandsRoutes.get("/:id", getBrandsByIdHandler);
-brandsRoutes.post("/", postBrandsHandler);
-brandsRoutes.patch("/:id", patchBrandsHandler);
-brandsRoutes.delete("/:id", deleteBrandsHandler);
+brandsRoutes.post("/", authToken, authorizeAdmin, postBrandsHandler);
+brandsRoutes.patch("/:id", authToken, authorizeAdmin, patchBrandsHandler);
+brandsRoutes.delete("/:id", authToken, authorizeAdmin, deleteBrandsHandler);
 
 module.exports = brandsRoutes;

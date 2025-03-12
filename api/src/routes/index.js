@@ -8,11 +8,13 @@ const sizesRoutes = require("./sizesRoutes");
 const segmentsRoutes = require("./segmentsRoutes");
 const imagesRoutes = require("./imagesRoutes");
 const adminRoutes = require("./adminRoutes");
+const cartRoutes = require("./cartRoutes");
+const orderRoutes = require("./orderRoutes");
 
 const router = Router();
 
 router.use("/users", usersRoutes);
-router.use("admin", adminRoutes);
+router.use("/admin", adminRoutes);
 router.use("/auth", authRoutes);
 router.use("/products", productsRoutes);
 router.use("/address", addressRoutes);
@@ -20,5 +22,7 @@ router.use("/brands", brandsRoutes);
 router.use("/sizes", sizesRoutes);
 router.use("/segments", segmentsRoutes);
 router.use("/images", imagesRoutes);
+router.use("/cart", cartRoutes);
+router.use("/orders", orderRoutes);
 
 module.exports = router;

@@ -6,13 +6,14 @@ const {
   patchSegmentHandler,
   deleteSegmentHandler,
 } = require("../handlers/segmentsHandlers");
+const { authToken, authorizeAdmin } = require("../middlewares/authMiddleware");
 
 const segmentsRoutes = Router();
 
 segmentsRoutes.get("/", getSegmentsHandler);
 segmentsRoutes.get("/:id", getSegmentByIdHandler);
-segmentsRoutes.post("/", postSegmentHandler);
-segmentsRoutes.patch("/:id", patchSegmentHandler);
-segmentsRoutes.delete("/:id", deleteSegmentHandler);
+segmentsRoutes.post("/", authToken, authorizeAdmin, postSegmentHandler);
+segmentsRoutes.patch("/:id", authToken, authorizeAdmin, patchSegmentHandler);
+segmentsRoutes.delete("/:id", authToken, authorizeAdmin, deleteSegmentHandler);
 
 module.exports = segmentsRoutes;

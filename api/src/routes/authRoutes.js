@@ -12,8 +12,8 @@ const authRoutes = Router();
 
 authRoutes.post("/register", registerController);
 authRoutes.post("/login", loginController);
-authRoutes.post("forgot-password", forgotPasswordController);
-authRoutes.post("reset-password", resetPasswordController);
-authRoutes.put("change-password", authToken, changePasswordController);
+authRoutes.post("/forgot-password", forgotPasswordController);
+authRoutes.post("/reset-password", resetPasswordController);
+authRoutes.put("/change-password", authToken, changePasswordController);
 
 module.exports = authRoutes;

@@ -6,13 +6,13 @@ const {
   patchAddressHandler,
   getAddressByIdHandler,
 } = require("../handlers/addressHandlers");
-
+const { authToken } = require("../middlewares/authMiddleware");
 const addressRoutes = Router();
 
-addressRoutes.get("/", getAddressHandler);
-addressRoutes.get("/:id", getAddressByIdHandler);
-addressRoutes.post("/", postAddressHandler);
-addressRoutes.patch("/:id", patchAddressHandler);
-addressRoutes.delete("/:id", deleteAddressHandler);
+addressRoutes.get("/", authToken, getAddressHandler);
+addressRoutes.get("/:id", authToken, getAddressByIdHandler);
+addressRoutes.post("/", authToken, postAddressHandler);
+addressRoutes.patch("/:id", authToken, patchAddressHandler);
+addressRoutes.delete("/:id", authToken, deleteAddressHandler);
 
 module.exports = addressRoutes;
