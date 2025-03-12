@@ -7,13 +7,16 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } = process.env;
 const sequelize = new Sequelize(
   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`,
   {
-    logging: false,
+    logging: process.env.NODE_ENV === "development" ? console.log : false,
     native: false,
   }
 );
 
-const basename = path.basename(__filename);
+sequelize.authenticate()
+  .then(() => console.log("Database connected"))
+  .catch((err) => console.error("Unable to connect to DB:", err));
 
+const basename = path.basename(__filename);
 const modelDefiners = [];
 
 fs.readdirSync(path.join(__dirname, "/models"))
@@ -51,23 +54,14 @@ Product.belongsTo(Segment);
 Product.hasMany(Image);
 Image.belongsTo(Product);
 
-Product.belongsToMany(User, { through: "cart" });
-User.belongsToMany(Product, { through: "cart" });
+Product.belongsToMany(User, { through: "cart", otherKey: "productId" });
+User.belongsToMany(Product, { through: "cart", otherKey: "userId" });
 
 Product.belongsToMany(User, { through: "wishlist" });
 User.belongsToMany(Product, { through: "wishlist" });
 
-Product.belongsToMany(User, { through: "review" });
-User.belongsToMany(Product, { through: "review" });
-
-Product.belongsToMany(User, { through: "rating" });
-User.belongsToMany(Product, { through: "rating" });
-
 Product.belongsToMany(User, { through: "order" });
 User.belongsToMany(Product, { through: "order" });
-
-Product.belongsToMany(User, { through: "favorite" });
-User.belongsToMany(Product, { through: "favorite" });
 
 module.exports = {
   ...sequelize.models,
